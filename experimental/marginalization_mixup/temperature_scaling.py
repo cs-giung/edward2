@@ -30,6 +30,7 @@ from experimental.marginalization_mixup import data_utils  # local file import
 import numpy as np
 import tensorflow as tf
 import tensorflow_datasets as tfds
+from uncertainty_baselines import schedules
 from uncertainty_baselines.baselines.cifar import utils
 import uncertainty_metrics as um
 
